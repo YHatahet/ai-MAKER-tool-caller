@@ -1,0 +1,22 @@
+{
+  "name": "fail_once_formatter",
+  "description": "Format a message but fail if the text contains digits.",
+  "runner": {
+    "type": "python",
+    "entrypoint": "runner.py:run"
+  },
+  "input_schema": {
+    "type": "object",
+    "required": ["message"],
+    "properties": {
+      "message": {"type": "string"}
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "required": ["text"],
+    "properties": {
+      "text": {"type": "string"}
+    }
+  }
+}

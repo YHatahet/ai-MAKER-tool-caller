@@ -1,0 +1,23 @@
+{
+  "name": "add_numbers",
+  "description": "Add two numbers and return their sum.",
+  "runner": {
+    "type": "python",
+    "entrypoint": "runner.py:run"
+  },
+  "input_schema": {
+    "type": "object",
+    "required": ["a", "b"],
+    "properties": {
+      "a": {"type": "number"},
+      "b": {"type": "number"}
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "required": ["sum"],
+    "properties": {
+      "sum": {"type": "number"}
+    }
+  }
+}

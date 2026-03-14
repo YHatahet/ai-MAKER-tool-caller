@@ -1,0 +1,9 @@
+[project]
+name = "maker-tools-pipeline"
+version = "0.8.0"
+description = "MAKER-style NL-to-tools planning and execution framework with DAG execution and semantic plan canonicalization"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

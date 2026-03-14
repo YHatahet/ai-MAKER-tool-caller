@@ -1,0 +1,22 @@
+{
+  "name": "format_message",
+  "description": "Format a final message from a string.",
+  "runner": {
+    "type": "python",
+    "entrypoint": "runner.py:run"
+  },
+  "input_schema": {
+    "type": "object",
+    "required": ["message"],
+    "properties": {
+      "message": {"type": "string"}
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "required": ["text"],
+    "properties": {
+      "text": {"type": "string"}
+    }
+  }
+}
