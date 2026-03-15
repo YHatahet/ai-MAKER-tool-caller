@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: maker-tools-pipeline
-Version: 0.8.0
-Summary: MAKER-style NL-to-tools planning and execution framework with DAG execution and semantic plan canonicalization
-Requires-Python: >=3.10
